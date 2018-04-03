@@ -35,6 +35,6 @@ def master_mind ():
     if (won):
         print (" └ You win.")
     else:
-        print (" └ You have lost...")
+        print (f" └ You have lost... The number was {hidden_number}")
 
 master_mind()
